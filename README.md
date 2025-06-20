@@ -25,4 +25,13 @@ We used the [GNews Dataset](https://www.kaggle.com/datasets) which contains:
 
 Model output:
 ```plaintext
-Precision, Recall, F1 - shown using classification_report()
+              precision    recall  f1-score   support
+
+    Business       0.85      0.86      0.85      5911
+    Sci/Tech       0.88      0.86      0.87      6075
+      Sports       0.94      0.97      0.96      6058
+       World       0.91      0.88      0.90      5956
+
+    accuracy                           0.89     24000
+   macro avg       0.89      0.89      0.89     24000
+weighted avg       0.89      0.89      0.89     24000
